@@ -1,0 +1,12 @@
+{
+  "BranchId": 1002,
+  "OperateMsgList": [
+    {
+      "StarTime": "2011-01-01",
+      "EndTime": "2012-01-01",
+      "DataCount": "100000",
+      "MaxDetailCount": "5",
+      "MaxGoodsNum": "6000"
+    }
+  ]
+}
