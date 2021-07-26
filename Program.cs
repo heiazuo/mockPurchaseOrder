@@ -48,7 +48,6 @@ namespace MopckPurchaseOrder
             Logger.Debug("开始执行", DateTime.Now.ToLongTimeString());
 
 
-
             var end = false;
             var st = new Stopwatch();
             st.Start();
@@ -95,7 +94,9 @@ namespace MopckPurchaseOrder
             List<Supplier> supplierList)
         {
             foreach (var itemOperate in opts)
+            {
                 CreateData(itemOperate, branchId, userList, goodsList, supplierList);
+            }
         }
 
         /// <summary>
